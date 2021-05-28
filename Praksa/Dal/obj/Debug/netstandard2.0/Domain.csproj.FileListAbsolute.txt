@@ -1,0 +1,9 @@
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Dal\obj\Debug\netstandard2.0\Domain.pdb

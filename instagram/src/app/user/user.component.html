@@ -1,0 +1,57 @@
+<p>user works!</p>
+<div class="col-md-6">
+  <div class="container">
+    <form [formGroup]="frmGroup" (ngSubmit)="onSubmit()">
+      <div class="form-row">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          formControlName="email"
+          required
+        />
+        <div
+          *ngIf="
+            frmGroup.controls.email.invalid &&
+            (frmGroup.controls.email.dirty || frmGroup.controls.email.touched)
+          "
+          class="alert alert-warning"
+          role="alert"
+        >
+          <div *ngIf="frmGroup.controls.email.errors?.required">
+            Email is required.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          formControlName="password"
+          required
+        />
+        <div
+          *ngIf="
+            frmGroup.controls.password.invalid &&
+            (frmGroup.controls.password.dirty ||
+              frmGroup.controls.password.touched)
+          "
+          class="alert alert-warning"
+          role="alert"
+        >
+          <div *ngIf="frmGroup.controls.password.errors?.required">
+            Password is required.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <button type="submit" (onClick)="onSubmit()" class="btn btn-primary">
+          Login
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

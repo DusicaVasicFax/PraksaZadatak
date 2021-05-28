@@ -1,0 +1,164 @@
+<div class="col-md-6">
+  <div class="container">
+    <form [formGroup]="frmGroup" (ngSubmit)="onSubmit()">
+      <div class="form-row">
+        <div class="col-sm-6 form-group">
+          <label for="firstname">Firstname:</label>
+          <input
+            type="text"
+            id="firstname"
+            class="form-control"
+            formControlName="firstname"
+            required
+          />
+          <div
+            *ngIf="
+              frmGroup.controls.firstname.invalid &&
+              (frmGroup.controls.firstname.dirty ||
+                frmGroup.controls.firstname.touched)
+            "
+            class="alert alert-warning"
+            role="alert"
+          >
+            <div *ngIf="frmGroup.controls.firstname.errors?.required">
+              Firstname is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 form-group">
+          <label for="lastname">Lastname:</label>
+          <input
+            type="text"
+            id="lastname"
+            class="form-control"
+            formControlName="lastname"
+            required
+          />
+          <div
+            *ngIf="
+              frmGroup.controls.lastname.invalid &&
+              (frmGroup.controls.lastname.dirty ||
+                frmGroup.controls.lastname.touched)
+            "
+            class="alert alert-warning"
+            role="alert"
+          >
+            <div *ngIf="frmGroup.controls.lastname.errors?.required">
+              Lastname is required.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-sm-6 form-group">
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            formControlName="email"
+            placeholder="example@email.com"
+            required
+          />
+          <div
+            *ngIf="
+              frmGroup.controls.email.invalid &&
+              (frmGroup.controls.email.dirty || frmGroup.controls.email.touched)
+            "
+            class="alert alert-warning"
+            role="alert"
+          >
+            <div *ngIf="frmGroup.controls.email.errors?.required">
+              Username is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            formControlName="password"
+            placeholder="Password"
+          />
+          <div
+            *ngIf="
+              frmGroup.controls.password.invalid &&
+              (frmGroup.controls.password.dirty ||
+                frmGroup.controls.password.touched)
+            "
+            class="alert alert-warning"
+            role="alert"
+          >
+            <div *ngIf="frmGroup.controls.password.errors?.required">
+              Password is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            class="form-control"
+            formControlName="confirmPassword"
+            placeholder="Password"
+          />
+          <div
+            *ngIf="
+              frmGroup.controls.confirmPassword.invalid &&
+              (frmGroup.controls.confirmPassword.dirty ||
+                frmGroup.controls.confirmPassword.touched)
+            "
+            class="alert alert-warning"
+            role="alert"
+          >
+            <div *ngIf="frmGroup.controls.confirmPassword.errors?.required">
+              Password is required.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm 6 form-group">
+          <label for="phoneNumber">Phone No.</label>
+          <input
+            type="text"
+            id="phoneNumber"
+            class="form-control"
+            formControlName="phoneNumber"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm 6 form-group" id="image" formControlName="image">
+          <ngx-dropzone (change)="onSelect($event)">
+            <ngx-dropzone-label>Drop</ngx-dropzone-label>
+            <ngx-dropzone-preview
+              *ngFor="let f of files"
+              [removable]="true"
+              (removed)="onRemove(f)"
+            >
+              <ngx-dropzone-label>
+                {{ f.name }} ({{ f.type }})
+              </ngx-dropzone-label>
+            </ngx-dropzone-preview>
+          </ngx-dropzone>
+        </div>
+      </div>
+      <div class="form-row">
+        <button type="submit" (onClick)="onSubmit()" class="btn btn-primary">
+          Register
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

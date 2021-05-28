@@ -1,0 +1,39 @@
+form {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.rectangle {
+  margin-top: 30px;
+
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+label {
+  width: 40%;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}

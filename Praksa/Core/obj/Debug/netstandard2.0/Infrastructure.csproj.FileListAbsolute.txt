@@ -1,0 +1,12 @@
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\bin\Debug\netstandard2.0\Infrastructure.deps.json
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\praksa.1\Desktop\dusica-praksa\Praksa\Core\obj\Debug\netstandard2.0\Infrastructure.pdb

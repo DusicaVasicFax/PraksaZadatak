@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">Instagram</a>
+      <div class="header-right">
+        <a href="/dashboard">Home</a>
+        <a href="#" role="button" onclick="showProfile">Profile</a>
+        <a href="#" (click)="logout()">Logout</a>
+      </div>
+    </div>
+    <div id="profile" style="display: none">
+      <form>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="form-group">
+              <label>Name:</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

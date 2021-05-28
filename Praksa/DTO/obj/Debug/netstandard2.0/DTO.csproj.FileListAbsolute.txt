@@ -1,0 +1,9 @@
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\bin\Debug\netstandard2.0\DTO.deps.json
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\bin\Debug\netstandard2.0\DTO.dll
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\bin\Debug\netstandard2.0\DTO.pdb
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.csprojAssemblyReference.cache
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.AssemblyInfoInputs.cache
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.AssemblyInfo.cs
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.dll
+C:\Users\praksa.1\Desktop\dusica\Praksa\DTO\obj\Debug\netstandard2.0\DTO.pdb

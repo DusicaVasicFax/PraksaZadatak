@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQNDR/3hViUHkmyAwJ0R5EptAN9b4RvC84q2Yf6odfuPSuz/cbgt2AacOmCbRxxI+G3V9Swsa42af22yKTdtgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\praksa.1\\Desktop\\dusica\\Praksa\\DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\praksa.1\\.nuget\\packages\\microsoft.build.framework\\16.9.0\\microsoft.build.framework.16.9.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\praksa.1\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
